@@ -13,10 +13,10 @@ export default class App extends Component {
             <>
             <BrowserRouter>
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path="/" element={<><Home /> </>} />
                         <Route path="/work" element={<Work />} />
-                        <Route path="about" element={<About />} />
-                        <Route path="lounge" element={<Lounge />} />
+                        <Route path="/lounge" element={<Lounge />} />
+                        <Route path="/about" element={<About />} />
                     </Routes>  
             </BrowserRouter>
             
